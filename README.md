@@ -21,6 +21,7 @@ The administrator can manage the user list and product list.
 * MySQL 8.0.22
 * Servlet 4.0.1
 * JSTL 1.2
+* JDBC
 
 # <a name="start"></a>How to start?
 Open this project in your IDE.
