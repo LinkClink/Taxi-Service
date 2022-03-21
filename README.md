@@ -19,7 +19,6 @@ The administrator can manage the user list and product list.
 * MavenCheckstyle 3.1.1
 * Tomcat 9.0.58
 * MySQL 8.0.22
-* Log4j 1.2.17
 * Servlet 4.0.1
 * JSTL 1.2
 
