@@ -1,7 +1,5 @@
 # Taxi-Service
 
-# InternetShop
-
 # Table of Contents
 * [Project description](#description)
 * [Project structure](#structure)
@@ -9,7 +7,21 @@
 * [Authors](#authors)
 
 # <a name="description"></a>Project description
-A web application for the implementation of taxi service, has the ability to log in for users, add deletion of drivers, cars, view all cars, drivers.
+This is simple program for taxi service. The program uses mysql to store data. Tomcat is also used as a web-server Program has next functions:
+
+* display all Drivers
+* display all Cars
+* display all Manufacturers
+* create new Driver
+* create new Car
+* create new Manufacturer
+* add driver to car
+* all cars by driver
+
+# 3-layer architecture
+* DAO - Data access layer
+* Service - Application layer
+* Controllers - Presentation layer
 
 The administrator can manage the user list and product list.
 
@@ -24,17 +36,13 @@ The administrator can manage the user list and product list.
 * JDBC
 
 # <a name="start"></a>How to start?
-Open this project in your IDE.
+1. Configure Apache Tomcat for your IDE
+2. Install MySQL and MySQL Workbench
+3. Use resources/init_db.sql for creating a Schema and tables
+4. Configure ConnectionUtil.java with your URL, USERNAME, PASSWORD, JDBC_DRIVER
+5. Configure the tomcat library path in the startup settings
 
-Make project as maven project.
-
-Install and configure Tomcat.
-
-Install and configure database management system.
-
-Run all queries from init_db.sql file in your DB.
-
-Change login and password in Connection class
+Enjoy!
 
 # <a name="authors"></a>Authors
 @LinkClink
