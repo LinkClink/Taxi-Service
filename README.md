@@ -38,8 +38,8 @@ The administrator can manage the user list and product list.
 # <a name="start"></a>How to start?
 1. Configure Apache Tomcat for your IDE
 2. Install MySQL and MySQL Workbench
-3. Use resources/init_db.sql for creating a Schema and tables
-4. Configure ConnectionUtil.java with your URL, USERNAME, PASSWORD, JDBC_DRIVER
+3. Use `resources/init_db.sql` for creating a Schema and tables
+4. Configure `ConnectionUtil.java` with your URL, `USERNAME`, `PASSWORD`, `JDBC_DRIVER`
 5. Configure the tomcat library path in the startup settings
 
 Enjoy!
