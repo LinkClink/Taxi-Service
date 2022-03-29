@@ -25,7 +25,7 @@ This is simple program for taxi service. The program uses mysql to store data. T
 
 The administrator can manage the user list and product list.
 
-# <a name="structure"></a>Project Structure
+# <a name="structure"></a>Technologies
 * Java 11
 * Maven 4.0.0
 * MavenCheckstyle 3.1.1
@@ -38,11 +38,11 @@ The administrator can manage the user list and product list.
 # <a name="start"></a>How to start?
 1. Configure Apache Tomcat for your IDE
 2. Install MySQL and MySQL Workbench
-3. Use resources/init_db.sql for creating a Schema and tables
-4. Configure ConnectionUtil.java with your URL, USERNAME, PASSWORD, JDBC_DRIVER
+3. Use `resources/init_db.sql` for creating a Schema and tables
+4. Configure `ConnectionUtil.java` with your URL, `USERNAME`, `PASSWORD`, `JDBC_DRIVER`
 5. Configure the tomcat library path in the startup settings
 
 Enjoy!
 
 # <a name="authors"></a>Authors
-@LinkClink
+@LinkClink [telegram](https://t.me/linkclink)
