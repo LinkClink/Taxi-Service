@@ -25,7 +25,7 @@ This is simple program for taxi service. The program uses mysql to store data. T
 
 The administrator can manage the user list and product list.
 
-# <a name="structure"></a>Project Structure
+# <a name="structure"></a>Technologies
 * Java 11
 * Maven 4.0.0
 * MavenCheckstyle 3.1.1
